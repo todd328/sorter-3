@@ -23,7 +23,7 @@ HOST_IP = os.environ.get("SURESORT_HOST", "172.17.0.61")
 PORT = int(os.environ.get("SURESORT_PORT", "24200"))
 
 BASE_API_URL = os.environ.get("SURESORT_API_URL", "http://atlprod:1026/suresort3")
-BIN_LOOKUP_ENDPOINT = f"{BASE_API_URL}/sortc2502/"
+BIN_LOOKUP_ENDPOINT = f"{BASE_API_URL}/sortc2503/"
 
 # barcode length -> (endpoint, human-readable label)
 BARCODE_ROUTES = {
